@@ -1,0 +1,45 @@
+{
+  "name": "@<your_username>/code-to-cloud-twitch-public",
+  "version": "1.0.0",
+  "description": "Calculator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octodemo/code-to-cloud-twitch-public.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "exit 0",
+    "test": "nyc --reporter=cobertura --reporter=html --reporter=text mocha --timeout 10000 --reporter mocha-multi-reporters --reporter-options configFile=test/config.json && ./node_modules/.bin/gulp inlinesource"
+  },
+  "keywords": [
+    "azure",
+    "pipelines",
+    "devops",
+    "vsts",
+    "ci",
+    "cd"
+  ],
+  "author": "Edward Thomson",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "gulp": "^4.0.0",
+    "gulp-inline-source": "^4.0.0",
+    "mocha": "^5.2.0",
+    "mocha-junit-reporter": "^1.18.0",
+    "mocha-multi-reporters": "^1.1.7",
+    "nyc": "^13.3.0",
+    "supertest": "^3.4.2"
+  },
+  "bugs": {
+    "url": "https://github.com/octodemo/code-to-cloud-twitch-public/issues"
+  },
+  "homepage": "https://github.com/octodemo/code-to-cloud-twitch-public#readme",
+  "directories": {
+    "test": "test"
+  }
+}
