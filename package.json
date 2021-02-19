@@ -1,5 +1,5 @@
 {
-  "name": "@<your_username>/code-to-cloud-twitch-public",
+  "name": "@dannylee8/code-to-cloud-twitch-public",
   "version": "1.0.0",
   "description": "Calculator",
   "repository": {
@@ -23,16 +23,16 @@
   "author": "Edward Thomson",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-inline-source": "^4.0.0",
-    "mocha": "^5.2.0",
-    "mocha-junit-reporter": "^1.18.0",
+    "mocha": "^8.1.3",
+    "mocha-junit-reporter": "^1.23.3",
     "mocha-multi-reporters": "^1.1.7",
-    "nyc": "^13.3.0",
+    "nyc": "^15.1.0",
     "supertest": "^3.4.2"
   },
   "bugs": {
