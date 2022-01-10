@@ -41,5 +41,8 @@
   "homepage": "https://github.com/octodemo/code-to-cloud-twitch-public#readme",
   "directories": {
     "test": "test"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
